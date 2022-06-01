@@ -1,7 +1,9 @@
-﻿namespace ConsoleAcme.Bussines
+﻿using ConsoleAcme.DTOs;
+
+namespace ConsoleAcme.Bussines
 {
     public interface ICalculateSameTime
     {
-        Task CalculateSameTime();
+        Task<List<SameTimeDTO>> Calculate(string path);
     }
 }

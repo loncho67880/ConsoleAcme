@@ -2,9 +2,9 @@
 {
     public class ReadFiles : IReadFiles
     {
-        public Task<List<string>> getLines(string path)
+        public async Task<List<string>> getLines(string path)
         {
-            throw new NotImplementedException();
+            return (await File.ReadAllLinesAsync(path)).ToList();
         }
     }
 }

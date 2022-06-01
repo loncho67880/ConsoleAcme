@@ -7,5 +7,6 @@ namespace ConsoleAcme.Entities
         [Required]
         [Key]
         public string Name { get; set; }
+        public List<RegisterTime> RegistersTimes { get; set; }
     }
 }

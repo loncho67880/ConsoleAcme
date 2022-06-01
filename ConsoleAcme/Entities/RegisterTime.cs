@@ -2,7 +2,8 @@
 {
     public class RegisterTime
     {
-        public Employee Employee { get; set; }
-        public DateTime Time { get; set; }
+        public TimeSpan StartTime { get; set; }
+        public TimeSpan EndTime { get; set; }
+        public string Day { get; set; }
     }
 }
