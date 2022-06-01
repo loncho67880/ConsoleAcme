@@ -2,7 +2,7 @@ Implementation
 
 I use .net 6
 
-- Architecture
+- Architecture:
 Clean architecture
 
 
